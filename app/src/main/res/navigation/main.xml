@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    app:startDestination="@id/postsListFragment">
+
+    <fragment
+        android:id="@+id/postsListFragment"
+        android:name="com.karim.task.presentation.ui.mostPopular.MostPopularFragment"
+        android:label="fragment_posts"
+        tools:layout="@layout/fragment_posts_list">
+        <action
+            android:id="@+id/action_postsListFragment_to_mostPopularDetails"
+            app:destination="@id/mostPopularDetails"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/postsListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mostPopularDetails"
+        android:name="com.karim.task.presentation.ui.mostPopularDetails.MostPopularDetails"
+        android:label="MostPopularDetails"
+        tools:layout="@layout/fragment_post_list_details">
+        <argument
+            android:name="postId"
+            app:argType="com.karim.task.data.entity.PostResult" />
+    </fragment>
+
+</navigation>
