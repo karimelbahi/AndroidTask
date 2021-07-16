@@ -7,16 +7,27 @@ Techniques used:
 •Kotlin
 
 •MVVM (Model,View,ViewModel)
+
 •Android view model
+
 •Data Binding
+
 •Kotlin Flow
+
 •Coroutines
+
 •Lifecycle
+
 •LiveData
+
 •Flow
+
 •Dagger with Hilt (insted of Dagger)
+
 •List Adapter
+
 •Image loading with picasso
+
 •Navigation component with Safe Args
 
 Techniques did not used:
