@@ -3,7 +3,9 @@ retrofit with flow adapter and how to access the same flow through all applicati
 with configuration changes and generic error handing.
 
 Techniques used:
+
 •Kotlin
+
 •MVVM (Model,View,ViewModel)
 •Android view model
 •Data Binding
