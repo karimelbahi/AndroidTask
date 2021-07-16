@@ -1,4 +1,4 @@
-Naggaro andriod task to explain how to build demo based on MVVM architecture and easy to maintain using
+Andriod task to explain how to build demo based on MVVM architecture and easy to maintain using
 retrofit with flow adapter and how to access the same flow through all application layers
 with configuration changes and generic error handing.
 
